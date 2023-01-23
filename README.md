@@ -23,9 +23,10 @@ RUN
   
   int lastC = lastContinuousNumber
   foreach(c in setC.Where(i => i > lastContinuousNumber && i <= ceiling))
-    if(c - 1 != lastC)
-      Primes.Add(c-1)
-      setC.Insert(c-1)
+    int possiblePrime = c-1
+    if(possiblePrime != lastC)
+      Primes.Add(possiblePrime)
+      setC.Insert(possiblePrime)
     lastC = c
   
   small = lastContinuousNumber + 1
