@@ -4,7 +4,7 @@ An algorithm that can find all the primes on the positive number line. What fun!
 Here's how it works, super simplified -
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Input Conditions
+INPUT CONDITIONS
 
 List int setA = {2} (We can call this the Continuous Number Line)
 List int setB = {2}
@@ -15,7 +15,7 @@ int lastContinuousNumber = 2
 int ceiling = { lastContinuousNumber * 2}
   
 
-Run
+RUN
   bool nextSmallIsSet = false
   int nextSmall = 0
   
