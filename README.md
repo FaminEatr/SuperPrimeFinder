@@ -75,7 +75,7 @@ First Iteration Example -
       setC.Insert(p)
       
     Setting Next Batch Conditions
-      small =(2+1)= 3
+      small = 3 (2(the lastContinuousNumber)+1)
       lastContinuousNumber = 4
       setA = {2,3,4} (2 to lastContinuousNumber)
       setB = {3,4} (small and up)
