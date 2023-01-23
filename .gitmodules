@@ -1,0 +1,6 @@
+[submodule "DeepInteger"]
+	path = DeepInteger
+	url = https://github.com/FaminEatr/DeepInteger.git
+[submodule "BigList"]
+	path = BigList
+	url = https://github.com/FaminEatr/BigList.git

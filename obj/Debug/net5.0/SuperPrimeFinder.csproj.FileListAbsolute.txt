@@ -1,0 +1,16 @@
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\SuperPrimeFinder.exe
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\SuperPrimeFinder.deps.json
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\SuperPrimeFinder.runtimeconfig.json
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\SuperPrimeFinder.runtimeconfig.dev.json
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\SuperPrimeFinder.dll
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\ref\SuperPrimeFinder.dll
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\bin\Debug\net5.0\SuperPrimeFinder.pdb
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.csprojAssemblyReference.cache
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.AssemblyInfoInputs.cache
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.AssemblyInfo.cs
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.csproj.CoreCompileInputs.cache
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.dll
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\ref\SuperPrimeFinder.dll
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.pdb
+D:\CodeProjects\ImportantRepos\GitHubRepos\SuperPrimeFinder\SuperPrimeFinder\obj\Debug\net5.0\SuperPrimeFinder.genruntimeconfig.cache
