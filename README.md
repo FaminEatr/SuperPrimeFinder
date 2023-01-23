@@ -1,6 +1,8 @@
 # SuperPrimeFinder
 An algorithm that can find all the primes on the positive number line. What fun!
 
+TODO - Duplicate program and data structures in C++ and run parallel on GPU
+
 Here's how it works, super simplified -
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
