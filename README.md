@@ -59,7 +59,7 @@ What this does -
   Each iteration expands the sets of numbers used, generating more and more complex numbers in the same way I suppose the universe might do so
   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-First Iterations Example -
+First Iteration Example -
   CONDITIONS
     setA = {2}
     setB = {2}
@@ -72,6 +72,7 @@ First Iterations Example -
     Double Loop
       2 * 2=4
       setC.Add(4) , setC{2,4}
+      
     Prime Finding Loop
       lastC = 2
       c=4
@@ -79,6 +80,7 @@ First Iterations Example -
       p != lastC (true)
       Primes.Add(p)
       setC.Insert(p)
+      
     Setting Next Batch Conditions
       lastContinuousNumber = 4
       setA = {2,3,4} (2 to lastContinuousNumber)
