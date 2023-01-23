@@ -691,7 +691,7 @@ namespace SuperPrimeFinder
                         IEnumerable<PrimeHunterInt> nums = ph_numbers.Where(i => !(i is null));
                         foreach (PrimeHunterInt _num in nums)
                         {
-                            StringBuilder _sb = new StringBuilder("~!~" + _num.ToString() + " : " + _num.GetDefinition() + "~!~");
+                            StringBuilder _sb = new StringBuilder(_num.ToString() + " : " + _num.GetDefinition());
                             file.WriteLine(_sb.ToString());
                         }
                     }
@@ -850,7 +850,7 @@ namespace SuperPrimeFinder
                 //  if an array value is null, it's prime
 
                 MasterNumberGenerator.ph_numbers.SetIterationCap(ceil);
-                IEnumerable<DeepInteger> numsAbovePrimes = MasterNumberGenerator.ph_numbers.Where(i => !(i is null) && i >= lcn && i <= ceil && (MasterNumberGenerator.ph_numbers[i - 1] is null));
+                IEnumerable<DeepInteger> numsAbovePrimes = MasterNumberGenerator.ph_numbers.Where(i => !(i is null) && i > lcn && i <= ceil && (MasterNumberGenerator.ph_numbers[i - 1] is null));
 
                 DeepInteger firstPrimeIndex = numsAbovePrimes.First() - 1;
                 DeepInteger lastPrimeIndex = numsAbovePrimes.Last() - 1;
