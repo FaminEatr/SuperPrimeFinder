@@ -63,19 +63,19 @@ First Iteration Example -
   
   RUNNING
     Double Loop
-      2 * 2=4
+      2 * 2 = 4
       setC.Add(4) , setC{2,4}
       
     Prime Finding Loop
       lastC = 2
-      c=4
-      p=(c-1)=3
+      c = 4
+      p =(c-1)= 3
       p != lastC (true)
       Primes.Add(p)
       setC.Insert(p)
       
     Setting Next Batch Conditions
-      small = 3
+      small =(2+1)= 3
       lastContinuousNumber = 4
       setA = {2,3,4} (2 to lastContinuousNumber)
       setB = {3,4} (small and up)
