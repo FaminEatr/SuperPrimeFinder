@@ -69,7 +69,7 @@ First Iteration Example -
     Prime Finding Loop
       lastC = 2
       c = 4
-      p =(c-1)= 3
+      p = 3 (c-1)
       p != lastC (true)
       Primes.Add(p)
       setC.Insert(p)
