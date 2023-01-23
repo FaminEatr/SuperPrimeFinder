@@ -43,8 +43,7 @@ RUN
 What we're doing -
   1. Beginning with 3 sets of numbers which can increase over time, starting them all at 2, which is the first number that can be multiplied to generate a new number
   2. We multiply all members within 2 of the sets, adding the generated numbers to the third set, which holds all our numbers
-  3. We loop over the third set, constrained to the Ceiling and find any case where the number -1 does not equal the last listed number
-    A. This number is a Prime Number, guaranteed, as all the numbers surrounding it have been factored
+  3. We loop over the third set, constrained to the Ceiling and find any case where the number -1 does not equal the last listed number. This number is a Prime Number, guaranteed, as all the numbers surrounding it have been factored
   4. Those numbers are inserted where they belong in the third set
   5. The new Last Continuous Number is determined
   6. The first set has numbers up to and including the Last Continuous Number added to it
