@@ -41,22 +41,22 @@ RUN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
 What we're doing -
-  ~ Beginning with 3 sets of numbers which can increase over time, starting them all at 2, which is the first number that can be multiplied to generate a new number
-  ~ We multiply all members within 2 of the sets, adding the generated numbers to the third set, which holds all our numbers
-  ~ We loop over the third set, constrained to the Ceiling and find any case where the number -1 does not equal the last listed number
-    ~ This number is a Prime Number, guaranteed, as all the numbers surrounding it have been factored
-  ~ Those numbers are inserted where they belong in the third set
-  ~ The new Last Continuous Number is determined
-  ~ The first set has numbers up to and including the Last Continuous Number added to it
-  ~ The second set has all the numbers greater than and equal to the Previous Smallest Generated Number added to it
-  ~ The Previous Smallest Generated Number is set to the new smallest generated number
-  ~ The loop is run again
+  1. Beginning with 3 sets of numbers which can increase over time, starting them all at 2, which is the first number that can be multiplied to generate a new number
+  2. We multiply all members within 2 of the sets, adding the generated numbers to the third set, which holds all our numbers
+  3. We loop over the third set, constrained to the Ceiling and find any case where the number -1 does not equal the last listed number
+    A. This number is a Prime Number, guaranteed, as all the numbers surrounding it have been factored
+  4. Those numbers are inserted where they belong in the third set
+  5. The new Last Continuous Number is determined
+  6. The first set has numbers up to and including the Last Continuous Number added to it
+  7. The second set has all the numbers greater than and equal to the Previous Smallest Generated Number added to it
+  8. The Previous Smallest Generated Number is set to the new smallest generated number
+  9. The loop is run again
   
 What this does -
-  ~ Generates expanding batches of numbers using a 'natural birthing' logarithm that builds off all previous iterations
-  ~ Using the Last Continuous Number * 2 as a constraint, one can then iterate through the factored numbers and 'weed out' any skipped numbers smaller than that ceiling
-  ~ Those weeded out numbers are all numbers that cannot be defined by multiplying any combination of numbers smaller than them, which is the definition of a Prime
-  ~ Each iteration expands the sets of numbers used, generating more and more complex numbers in the same way I suppose the universe might do so
+  1. Generates expanding batches of numbers using a 'natural birthing' logarithm that builds off all previous iterations
+  2. Using the Last Continuous Number * 2 as a constraint, one can then iterate through the factored numbers and 'weed out' any skipped numbers smaller than that ceiling
+  3. Those weeded out numbers are all numbers that cannot be defined by multiplying any combination of numbers smaller than them, which is the definition of a Prime
+  4. Each iteration expands the sets of numbers used, generating more and more complex numbers in the same way I suppose the universe might do so
   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 First Iteration Example -
