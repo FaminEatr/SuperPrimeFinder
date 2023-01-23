@@ -5,10 +5,10 @@ Here's how it works, super simplified -
 
 Input Conditions
 
-List<int> setA = {2} (We can call this the Continuous Number Line)
-List<int> setB = {2}
-List<int> setC = {2} (We can call this All Generated Numbers)
-List<int> Primes
+List int setA = {2} (We can call this the Continuous Number Line)
+List int setB = {2}
+List int setC = {2} (We can call this All Generated Numbers)
+List int Primes
 int small = 2
 int lastContinuousNumber = 2
 int ceiling = { lastContinuousNumber * 2}
